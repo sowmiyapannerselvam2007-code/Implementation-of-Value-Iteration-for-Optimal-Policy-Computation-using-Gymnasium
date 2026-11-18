@@ -29,7 +29,15 @@ move in the intended direction.
 
 ## MDP Representation
 
+States (S): 16 states in a 4×4 grid.
 
+Actions (A): Left, Down, Right, Up.
+
+Rewards (R): +1 for reaching the goal and 0 for other transitions.
+
+Transition Probability (P): Probability of moving from one state to another.
+
+Discount Factor (γ): 0.99.
 ## Theory
 
 
